@@ -12,8 +12,7 @@ import javax.json.stream.JsonGenerator;
 
 public class WriteJson {
     public static void main(String[] args) throws IOException {
-        OutputStream fileoutputstream = new FileOutputStream("Parking.json");
-        JsonGenerator jsonGenerator = Json.createGenerator(fileoutputstream);
+        OutputStream fileOutputStream = new FileOutputStream("Parking.json");
 
         Size newSize = new Size(200,300);
         Place newPlace = new Place(newSize);
