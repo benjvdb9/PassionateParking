@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 
-class Car implements Vehicle {
+public class Car implements Vehicle {
     private String license_plate;
     private String type;
     private Size size_car;
