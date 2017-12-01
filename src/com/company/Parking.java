@@ -21,17 +21,29 @@ public class Parking {
         this.places.add(place);
     }
 
-    public ArrayList getEmptyPlace() {
-        ArrayList empty_place = new ArrayList();
+    public ArrayList<Place> getEmptyPlace() {
+        ArrayList empty_places = new ArrayList();
         Place place;
 
         for (int i = 0; i < this.places.size(); i++) {
             place = this.places.get(i);
             if (place.isFree() == true) {
                 empty_place.add(this.places.get(i));
-
             }
         }
-        return empty_place;
+        return empty_places;
+    }
+
+    public ArrayList<Place> getBusyPlaces() {
+        ArrayList busy_places = new ArrayList();
+        Place place;
+
+        for (int i = 0; i < this.places.size(); i++) {
+            place = this.places.get(i);
+            if (place.isFree() == false) {
+                busy_places.add(this.places.get(i));
+            }
+        }
+        return busy_places;
     }
 }
