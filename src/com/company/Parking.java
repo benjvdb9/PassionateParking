@@ -17,6 +17,10 @@ public class Parking {
         return ParkingHolder.INSTANCE;
     }
 
+    public ArrayList<Place> getPlaces() {
+        return this.places;
+    }
+
     public void addPlace(Place place) {
         this.places.add(place);
     }
@@ -28,7 +32,7 @@ public class Parking {
         for (int i = 0; i < this.places.size(); i++) {
             place = this.places.get(i);
             if (place.isFree() == true) {
-                empty_place.add(this.places.get(i));
+                empty_places.add(this.places.get(i));
             }
         }
         return empty_places;
