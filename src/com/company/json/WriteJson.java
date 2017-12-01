@@ -12,7 +12,8 @@ import javax.json.stream.JsonGenerator;
 
 public class WriteJson {
     public static void main(String[] args) throws IOException {
-        OutputStream fileOutputStream = new FileOutputStream("Parking.json");
+        String file = "Parking.json";
+        OutputStream fileOutputStream = new FileOutputStream(file);
         JsonGenerator generator = Json.createGenerator(fileOutputStream);
 
         Size newSize = new Size(200,300);
@@ -23,7 +24,7 @@ public class WriteJson {
                 .write("price",newPlace.getPrice())
                 .write("free", newPlace.isFree());
         generator.writeEnd();
+        System.out.println(generator);
         generator.close();
-        System.out.println(newPlace.toString());
     }
 }
