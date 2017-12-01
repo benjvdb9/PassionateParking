@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+
 class Truck implements Vehicle {
     private String license_plate;
     private String type;
@@ -11,6 +13,18 @@ class Truck implements Vehicle {
         this.size_truck = new Size(260, 1200);
     }
 
+    public Size getSize_truck() {
+        return size_truck;
+    }
+
+    public String getLicense_plate() {
+        return license_plate;
+    }
+
+    public String getType() {
+        return type;
+    }
+
     @Override
     public String licensePlate() {
         return license_plate;
@@ -19,5 +33,10 @@ class Truck implements Vehicle {
     @Override
     public String type() {
         return type;
+    }
+
+    @Override
+    public ArrayList vehicleCharacteristic() {
+        return new ArrayList();
     }
 }

@@ -1,6 +1,8 @@
 package com.company;
 
 
+import java.util.ArrayList;
+
 abstract class Decorator implements Vehicle {
     private Vehicle vehicle;
 
@@ -16,5 +18,10 @@ abstract class Decorator implements Vehicle {
     @Override
     public String licensePlate() {
         return vehicle.licensePlate();
+    }
+
+    @Override
+    public ArrayList vehicleCharacteristic() {
+        return vehicle.vehicleCharacteristic();
     }
 }
