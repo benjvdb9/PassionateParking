@@ -11,6 +11,18 @@ public class Place {
         this.free = true;
     }
 
+    public boolean isFree() {
+        return this.free;
+    }
+
+    public Vehicle getVehicle() {
+        return this.vehicle;
+    }
+
+    public Size getSize_place() {
+        return size_place;
+    }
+
     public void setBusy(Vehicle vehicle) {
         this.free = false;
         this.vehicle = vehicle;

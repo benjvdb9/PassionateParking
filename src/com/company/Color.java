@@ -1,8 +1,13 @@
 package com.company;
 
-class Color extends Decorator {
+public class Color {
+    private String color;
 
-    public Color(Vehicle vehicle) {
-        super(vehicle);
+    public Color(String color) {
+        this.color = color;
+    }
+
+    public String getColor() {
+        return color;
     }
 }
