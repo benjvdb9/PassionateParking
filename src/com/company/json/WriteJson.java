@@ -24,19 +24,22 @@ public class WriteJson {
         JsonGenerator generator = Json.createGenerator(fileOutputStream);
 
         //part that creates a new Place object
-        Size newSize = new Size(300,200);
+        Size newSize = new Size(250,600);
         Place newPlace = new Place(newSize);
 
         //adding the Place object to the list of Place objects
         places.add(newPlace);
         generator.writeStartArray(); //start array
+        int index = 1;
         for (Place this_place:places){
             generator.writeStartObject(); // start object
             generator.write("length",this_place.getSize_place().getLength())
                     .write("width",this_place.getSize_place().getWidth())
                     .write("price",this_place.getPrice())
-                    .write("free", this_place.isFree());
+                    .write("free", this_place.isFree())
+                    .write("index",index);
             generator.writeEnd();
+            index ++;
         }
         // add previous objects
 
