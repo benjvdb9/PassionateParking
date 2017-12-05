@@ -3,7 +3,7 @@ package com.company;
 /*
 * Class Size.
 * Size of vehicle.
- */
+*/
 public class Size {
     private int length;
     private int width;
