@@ -15,16 +15,29 @@ public class MyFirstTest {
         Assert.assertEquals("should be 0",0, parking.getPlaces().size());
         parking.addPlace(place);
         Assert.assertEquals("should be 1",1, parking.getPlaces().size());
+        Assert.assertEquals("should be 1",1, parking.getEmptyPlace().size());
+        Assert.assertEquals("should be 1",0, parking.getBusyPlaces().size());
         Assert.assertEquals("should be true", true,place.isFree());
         Car car = new Car("ABC123");
         place.setBusy(car);
+        Assert.assertEquals("should be 1",0, parking.getEmptyPlace().size());
+        Assert.assertEquals("should be 1",1, parking.getBusyPlaces().size());
+
         Assert.assertEquals("should be false", false,place.isFree());
         Assert.assertEquals("should work", car, place.getVehicle());
         Assert.assertEquals( 0, place.getPrice(),0.001);
         Assert.assertEquals("should be false", false, place.isFree());
-        place.setFree(car);
+        place.setFree();
         Assert.assertEquals("should be true", true ,place.isFree());
         Assert.assertEquals("Should be true",size,place.getSize_place());
+
+    }
+    public void SizeTest(){
+        Size size = new Size(1,2);
+        Assert.assertEquals("should be 0",2, size.getLength());
+        Assert.assertEquals("should be 0",1, size.getWidth());
+    }
+    public void PlaceTest(){
 
     }
 }
