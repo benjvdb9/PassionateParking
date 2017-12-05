@@ -1,5 +1,9 @@
 package com.company;
 
+/*
+*Color class
+* String color: name of color.
+ */
 public class Color {
     private String color;
 

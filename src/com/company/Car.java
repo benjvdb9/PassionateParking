@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.ArrayList;
-
 /*
 * Car Class.
 * Car is a Vehicle.
@@ -9,7 +7,7 @@ import java.util.ArrayList;
 * String type : type of car.
 * Size size_car: the size of car.
  */
-public class Car implements Vehicle {
+class Car extends Vehicle {
     private String license_plate;
     private String type;
     private Size size_car;
@@ -22,7 +20,7 @@ public class Car implements Vehicle {
     }
 
     //Getter.
-    public String getLicense_plate() {
+    public String getLicensePlate() {
         return license_plate;
     }
 
@@ -30,7 +28,7 @@ public class Car implements Vehicle {
         return type;
     }
 
-    public Size getSize_car() {
+    public Size getSizeCar() {
         return size_car;
     }
 
@@ -45,8 +43,4 @@ public class Car implements Vehicle {
         return type;
     }
 
-    @Override
-    public ArrayList vehicleCharacteristic() {
-        return new ArrayList();
-    }
 }

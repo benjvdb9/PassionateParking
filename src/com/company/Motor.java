@@ -1,8 +1,15 @@
 package com.company;
 
-class Motor extends Decorator {
+public class Motor {
+    private String motor_type;
 
-    public Motor(Vehicle vehicle) {
-        super(vehicle);
+    //Constructor.
+    public Motor(String motor_type) {
+        this.motor_type = motor_type;
+    }
+
+    //Getter.
+    public String getMotorType() {
+        return motor_type;
     }
 }
