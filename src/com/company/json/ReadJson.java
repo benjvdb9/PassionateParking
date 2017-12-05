@@ -8,16 +8,16 @@ import java.lang.reflect.Array;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.List;
 
-import javax.json.Json;
-import javax.json.JsonObject;
-import javax.json.JsonReader;
+import javax.json.*;
+
 public class ReadJson {
 
     public static void main(String[] args){
 
         String file = "Parking.json";
-        Place[] all = new Place[]{};
+        List<Place> all = new ArrayList<>();
         try {
             InputStream fileInputStream = new FileInputStream(file);
             JsonReader jsonReader = Json.createReader(fileInputStream);
@@ -34,8 +34,18 @@ public class ReadJson {
             System.out.println("File not found");
         }
     }
-    public Place getPlace(Integer width, Integer length, String price, String free){
-        Size size = new Size(width,length);
-        return new Place(size);
+    public static List<Place> getPlaces(JsonArray jsonArray)
+    {
+        List<Place> places = new ArrayList<>();
+        for (int i = 0;i<jsonArray.size();i++){
+            JsonObject jsonObject = jsonArray.getJsonObject(i);
+            int length = jsonObject.getInt("length");
+            int width = jsonObject.getInt("width");
+            Size size = new Size(length,width);
+            Place place = new Place(size);
+            places.add(place);
+        }
+        return places;
+
     }
 }

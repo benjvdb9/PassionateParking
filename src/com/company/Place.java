@@ -30,7 +30,6 @@ public class Place {
 
     public void setFree() {
         this.free = true;
-        this.vehicle = null;
     }
 
     public double getPrice(){
