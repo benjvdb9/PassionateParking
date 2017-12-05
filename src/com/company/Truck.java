@@ -8,17 +8,17 @@ import java.util.ArrayList;
 * String license_plate : license plate of the car.
 * String type : type of truck.
 * Size size_car: the size of truck
- */
+*/
 public class Truck implements Vehicle {
     private String license_plate;
     private String type;
     private Size size_truck;
 
     //Constructor
-    public Truck(String license_plate) {
+    public Truck(String license_plate, Size size_truck) {
         this.license_plate = license_plate;
         this.type = "Truck";
-        this.size_truck = new Size(260, 1200);
+        this.size_truck = size_truck;
     }
 
     //Getter.

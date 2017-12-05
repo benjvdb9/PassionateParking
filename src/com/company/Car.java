@@ -15,10 +15,10 @@ public class Car implements Vehicle {
     private Size size_car;
 
     //Constructor.
-    public Car(String license_plate) {
+    public Car(String license_plate, Size size_car) {
         this.license_plate = license_plate;
         this.type = "Car";
-        this.size_car = new Size(190, 450);
+        this.size_car = size_car;
     }
 
     //Getter.

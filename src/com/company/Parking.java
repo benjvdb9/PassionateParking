@@ -6,7 +6,7 @@ import java.util.ArrayList;
 * Class Parking
 * Unique instance, use singleton pattern.
 * ArrayList<Place> places : List of the places in the parking.
- */
+*/
 public class Parking {
     //Create list of places.
     private ArrayList<Place> places = new ArrayList<>();
