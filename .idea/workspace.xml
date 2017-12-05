@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c15f59c-293b-46d2-ac6d-a314961d518b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PassionateParking.iml" afterPath="$PROJECT_DIR$/PassionateParking.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/MyFirstTest.java" afterPath="$PROJECT_DIR$/Tests/MyFirstTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Car.java" afterPath="$PROJECT_DIR$/src/com/company/Car.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Color.java" afterPath="$PROJECT_DIR$/src/com/company/Color.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/ColorDecorator.java" afterPath="$PROJECT_DIR$/src/com/company/ColorDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Parking.java" afterPath="$PROJECT_DIR$/src/com/company/Parking.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Place.java" afterPath="$PROJECT_DIR$/src/com/company/Place.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Size.java" afterPath="$PROJECT_DIR$/src/com/company/Size.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Truck.java" afterPath="$PROJECT_DIR$/src/com/company/Truck.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +40,10 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Car.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <marker date="1512481157525" expanded="false" signature="839:850" ph=" { " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/ColorDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -87,10 +94,10 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Color.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -346,7 +353,7 @@
       <workItem from="1508918861676" duration="5990000" />
       <workItem from="1510322504871" duration="4274000" />
       <workItem from="1512129862919" duration="9049000" />
-      <workItem from="1512474968847" duration="6064000" />
+      <workItem from="1512474968847" duration="6094000" />
     </task>
     <servers />
   </component>
@@ -383,7 +390,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26295000" />
+    <option name="totallyTimeSpent" value="26325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -499,7 +506,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1512481157525" expanded="false" signature="839:850" ph=" { " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -598,7 +607,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1512481157525" expanded="false" signature="839:850" ph=" { " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -771,8 +782,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1512481157525" expanded="false" signature="839:850" ph=" { " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -795,10 +808,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -806,7 +819,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/ColorDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
