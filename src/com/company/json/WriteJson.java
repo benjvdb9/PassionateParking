@@ -16,7 +16,7 @@ public class WriteJson {
         OutputStream fileOutputStream = new FileOutputStream(file);
         JsonGenerator generator = Json.createGenerator(fileOutputStream);
 
-        Size newSize = new Size(200,300);
+        Size newSize = new Size(400,600);
         Place newPlace = new Place(newSize);
         generator.writeStartObject();
         generator.write("length",newPlace.getSize_place().getLength())

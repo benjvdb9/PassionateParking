@@ -9,7 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="junit:junit:4.12" level="project" />
-    <orderEntry type="library" name="javax.annotation:javax.annotation-api:1.2-b04" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
