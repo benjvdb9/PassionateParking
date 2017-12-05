@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c15f59c-293b-46d2-ac6d-a314961d518b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Parking.json" afterPath="$PROJECT_DIR$/Parking.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PassionateParking.iml" afterPath="$PROJECT_DIR$/PassionateParking.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/MyFirstTest.java" afterPath="$PROJECT_DIR$/Tests/MyFirstTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="72" column="71" lean-forward="false" selection-start-line="72" selection-start-column="71" selection-end-line="72" selection-end-column="71" />
+            <state relative-caret-position="311">
+              <caret line="56" column="67" lean-forward="true" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PassionateParking.iml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PassionateParking.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PassionateParking.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
@@ -136,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/com/company/Parking.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/com/company/json/WriteJson.java" />
-        <option value="$PROJECT_DIR$/Tests/MyFirstTest.java" />
         <option value="$PROJECT_DIR$/PassionateParking.iml" />
+        <option value="$PROJECT_DIR$/Tests/MyFirstTest.java" />
       </list>
     </option>
   </component>
@@ -146,12 +146,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="53" />
-    <option name="y" value="23" />
-    <option name="width" value="1387" />
-    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,34 +180,6 @@
             </path>
             <path>
               <item name="PassionateParking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PassionateParking" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PassionateParking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PassionateParking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PassionateParking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PassionateParking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PassionateParking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PassionateParking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PassionateParking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PassionateParking" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PassionateParking" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -234,7 +200,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/javax.json-1.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/javax.json-1.0.jar!/" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
@@ -380,17 +346,11 @@
       <workItem from="1508918861676" duration="5990000" />
       <workItem from="1510322504871" duration="4274000" />
       <workItem from="1512129862919" duration="9049000" />
-      <workItem from="1512474968847" duration="4584000" />
+      <workItem from="1512474968847" duration="6064000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest - 2017.12.05 at 13h 58m 49s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest - 2017.12.05 at 14h 01m 03s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyFirstTest - 2017.12.05 at 14h 01m 25s.xml">
       <configuration name="MyFirstTest" configurationId="JUnit" />
     </history-entry>
@@ -415,9 +375,15 @@
     <history-entry file="MyFirstTest - 2017.12.05 at 14h 11m 47s.xml">
       <configuration name="MyFirstTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyFirstTest - 2017.12.05 at 14h 21m 47s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest - 2017.12.05 at 14h 38m 30s.xml">
+      <configuration name="MyFirstTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24815000" />
+    <option name="totallyTimeSpent" value="26295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -432,11 +398,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26821193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -566,8 +532,8 @@
         <state relative-caret-position="105">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#89#90#0" expanded="false" />
+            <element signature="e#119#120#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -826,16 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/MyFirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="72" column="71" lean-forward="false" selection-start-line="72" selection-start-column="71" selection-end-line="72" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -855,6 +811,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PassionateParking.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -863,11 +827,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/Tests/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="311">
+          <caret line="56" column="67" lean-forward="true" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
