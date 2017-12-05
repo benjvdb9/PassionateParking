@@ -1,6 +1,9 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 
 /*
 * Class to implement methods of decorator.
@@ -8,18 +11,19 @@ import java.util.ArrayList;
 */
 class ColorDecorator extends Decorator {
     private Color color;
+    private final Vehicle vehicle;
 
     //Constructor.
-    public ColorDecorator(Vehicle vehicle, Color color) {
-        super(vehicle);
+    ColorDecorator(Vehicle vehicle, Color color) {
+        this.vehicle = vehicle;
         this.color = color;
     }
 
     //Add color to the array of characteristic's vehicle
     @Override
-    public ArrayList vehicleCharacteristic() {
-        ArrayList array = super.vehicleCharacteristic();
-        array.add(this.color);
-        return array;
+    public List<Object> vehicleCharacteristic() {
+        List<Object> list = new ArrayList<>(this.vehicle.vehicleCharacteristic());
+        list.add(this.color);
+        return Collections.unmodifiableList(list);
     }
 }

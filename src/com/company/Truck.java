@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.ArrayList;
-
 /*
 * Truck Class.
 * Truck is a Vehicle.
@@ -9,7 +7,7 @@ import java.util.ArrayList;
 * String type : type of truck.
 * Size size_car: the size of truck
 */
-public class Truck implements Vehicle {
+public class Truck extends Vehicle {
     private String license_plate;
     private String type;
     private Size size_truck;
@@ -43,10 +41,5 @@ public class Truck implements Vehicle {
     @Override
     public String type() {
         return type;
-    }
-
-    @Override
-    public ArrayList vehicleCharacteristic() {
-        return new ArrayList();
     }
 }

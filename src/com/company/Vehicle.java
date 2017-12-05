@@ -1,10 +1,14 @@
 package com.company;
 
-import java.util.ArrayList;
+import java.util.List;
+import java.util.Collections;
 
-interface Vehicle {
-    String licensePlate();
-    String type();
-    ArrayList vehicleCharacteristic();
+//Abstract class Vehicle.
+public abstract class Vehicle {
+    public abstract String licensePlate();
+    public abstract String type();
+    public List<Object> vehicleCharacteristic() {
+        return Collections.emptyList();
+    }
 }
 

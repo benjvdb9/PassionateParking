@@ -1,27 +1,24 @@
 package com.company;
 
+import java.util.List;
 
-import java.util.ArrayList;
-
-abstract class Decorator implements Vehicle {
-    private Vehicle vehicle;
-
-    public Decorator(Vehicle vehicle) {
-        this.vehicle = vehicle;
-    }
+/*
+* Abstact class to decorate a Vehicle.
+* The methods are to overide the vehicle class.
+*/
+abstract class Decorator extends Vehicle {
+    protected Vehicle vehicle;
 
     @Override
     public String type() {
-        return vehicle.type();
+        return this.vehicle.type();
     }
 
     @Override
     public String licensePlate() {
-        return vehicle.licensePlate();
+        return this.vehicle.licensePlate();
     }
 
     @Override
-    public ArrayList vehicleCharacteristic() {
-        return vehicle.vehicleCharacteristic();
-    }
+    public abstract List<Object> vehicleCharacteristic();
 }
