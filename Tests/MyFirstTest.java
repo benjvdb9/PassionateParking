@@ -13,12 +13,9 @@ public class MyFirstTest {
         Size size = new Size(1,2);
         Place place = new Place(size);
         Assert.assertEquals("should be true",place.isFree(), true);
-        Car car = new Car();
+        Car car = new Car("AVW696");
         place.setBusy(car);
         Assert.assertEquals("should be false",place.isFree(), false);
-        Assert.assertEquals("Should be true",true,dude.ChangeDOB(1993));
-        dude.ChangeDOB(1993);
-        Assert.assertEquals("should be 24",(dude.Year-dude.DOB), dude.CheckAge());
 
     }
 }
