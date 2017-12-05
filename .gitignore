@@ -23,3 +23,4 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /.idea/workspace.xml
+/.idea/libraries/javax_annotation_javax_annotation_api_1_2_b04.xml
