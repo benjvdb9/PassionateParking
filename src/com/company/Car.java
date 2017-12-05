@@ -7,7 +7,7 @@ package com.company;
 * String type : type of car.
 * Size size_car: the size of car.
  */
-class Car extends Vehicle {
+public class Car extends Vehicle {
     private String license_plate;
     private String type;
     private Size size_car;
