@@ -1,1 +1,15 @@
-[{"length":200,"width":300,"price":0.0,"free":true,"index":1},{"length":400,"width":200,"price":0.0,"free":true,"index":2},{"length":200,"width":300,"price":0.0,"free":true,"index":3},{"length":300,"width":200,"price":0.0,"free":true,"index":4},{"length":200,"width":300,"price":0.0,"free":true,"index":5},{"length":250,"width":1440,"price":0.0,"free":true,"index":6},{"length":600,"width":250,"price":0.0,"free":true,"index":7}]
+[
+  {
+    "id": 200,
+    "size": [300,200],
+    "free": true,
+    "arrival":"2017-12-05T18:39",
+    "leaving":null,
+    "vehicle":{
+      "license plate":"AVW696",
+      "type":"car",
+      "size":[300,200],
+      "caract":[]
+    }
+  }
+]
