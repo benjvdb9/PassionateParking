@@ -1,4 +1,4 @@
-<project name="OhLongJohnson">
+<project name="Passionate parking">
 	<target name="test">
 		<delete dir="bin" />
 		<mkdir dir="bin" />

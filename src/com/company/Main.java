@@ -5,6 +5,6 @@ public class Main {
         Parking park = Parking.getInstance();
         Size size = new Size(190, 450);
         Place place = new Place(size);
-        Car car = new Car("ABC");
+        //Car car = new Car("ABC");
     }
 }

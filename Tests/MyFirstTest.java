@@ -30,7 +30,8 @@ public class MyFirstTest {
         //test if sum of both arrays equals the size of the total places array
         Assert.assertEquals("should be true",parking.getPlaces().size(), totalsize);
         //Car creation in order to occupy a place
-        Car car = new Car("ABC123");
+        Size carsize = new Size(190,450);
+        Car car = new Car("ABC123", carsize);
         place.setBusy(car);
         //retest the busy and free lists
         Assert.assertEquals("should be 1",0, parking.getEmptyPlace().size());
@@ -52,7 +53,8 @@ public class MyFirstTest {
         //creation of the vatious objects needed for the place
         Size size = new Size(1,2);
         Place place = new Place(size);
-        Car car = new Car("ABC123");
+        Size carsize = new Size(190,450);
+        Car car = new Car("ABC123",carsize);
         //Test if at the beginnig the place is free
         Assert.assertEquals("should be true", true,place.isFree());
         //occupy the spot
@@ -63,28 +65,36 @@ public class MyFirstTest {
         Assert.assertEquals("should work", car, place.getVehicle());
         //test the place's price
         Assert.assertEquals( 0, place.getPrice(),0.001);
-
-        Assert.assertEquals("should be false", false, place.isFree());
+        //freeing the place
         place.setFree();
+        //test if the place is free indeed
         Assert.assertEquals("should be true", true ,place.isFree());
+        //test if the place size parameter
         Assert.assertEquals("Should be true",size,place.getSize_place());
     }
     @Test
     public void CarTest(){
-        Car car = new Car("ABC123");
-        Assert.assertEquals("Should be ABC123","ABC123",car.getLicense_plate());
+        //creation of the neccesary objects
         Size size = new Size(190,450);
+        Car car = new Car("ABC123",size);
+        //Test for the licence plate parameter
+        Assert.assertEquals("Should be ABC123","ABC123",car.getLicense_plate());
+        //test if the size of the car equals the ones we set
+        Assert.assertEquals("Should be be size",size,car.getSize_car());
         Assert.assertEquals("Should be ABC123","ABC123",car.licensePlate());
         Assert.assertEquals("Should be Car","Car",car.type());
         Assert.assertEquals("Should be 0",0,car.vehicleCharacteristic().size());
         Assert.assertEquals("Should be Car","Car",car.getType());
 
+
     }
     @Test
     public void TruckTest(){
-        Truck truck = new Truck("ABC123");
+        //Same as the car but for the truck
+        Size trucksize =new Size(190,450);
+        Truck truck = new Truck("ABC123",trucksize);
         Assert.assertEquals("Should be ABC123","ABC123",truck.getLicense_plate());
-        Size size = new Size(190,450);
+        Assert.assertEquals("should be trucksize",trucksize,truck.getSize_truck());
         Assert.assertEquals("Should be ABC123","ABC123",truck.licensePlate());
         Assert.assertEquals("Should be Truck","Truck",truck.type());
         Assert.assertEquals("Should be 0",0,truck.vehicleCharacteristic().size());
@@ -93,6 +103,7 @@ public class MyFirstTest {
     }
     @Test
     public void ColorTest(){
+        //test if the color parameter is correctely stored
         Color color = new Color("green");
         Assert.assertEquals("Should be green", "green",color.getColor());
     }
