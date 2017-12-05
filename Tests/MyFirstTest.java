@@ -25,6 +25,5 @@ public class MyFirstTest {
         place.setFree(car);
         Assert.assertEquals("should be true", true ,place.isFree());
         Assert.assertEquals("Should be true",size,place.getSize_place());
-
     }
 }
