@@ -12,6 +12,9 @@ public class MyFirstTest {
         Parking parking = Parking.getInstance();
         Size size = new Size(1,2);
         Place place = new Place(size);
+        Assert.assertEquals("should be 0",0, parking.getPlaces().size());
+        parking.addPlace(place);
+        Assert.assertEquals("should be 1",1, parking.getPlaces().size());
         Assert.assertEquals("should be true", true,place.isFree());
         Car car = new Car("ABC123");
         place.setBusy(car);

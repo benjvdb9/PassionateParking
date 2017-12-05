@@ -9,15 +9,15 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="javax.annotation:javax.annotation-api:1.2-b04" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/IdeaProjects/TDD_Java/lib/javax.json.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/javax.json-1.0.jar/javax.json-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="javax.json:javax.json-api:1.1.2" level="project" />
   </component>
 </module>

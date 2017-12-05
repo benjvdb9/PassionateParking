@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 
 public class Parking {
-    private ArrayList<Place> places;
+    private ArrayList<Place> places = new ArrayList<>();
 
     private Parking() {
         this.places = places;
