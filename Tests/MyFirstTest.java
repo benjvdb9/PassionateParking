@@ -12,13 +12,16 @@ public class MyFirstTest {
         Parking parking = Parking.getInstance();
         Size size = new Size(1,2);
         Place place = new Place(size);
-        Assert.assertEquals("should be true",place.isFree(), true);
-        Car car = new Car();
+        Assert.assertEquals("should be true", true,place.isFree());
+        Car car = new Car("ABC123");
         place.setBusy(car);
-        Assert.assertEquals("should be false",place.isFree(), false);
-        Assert.assertEquals("Should be true",true,dude.ChangeDOB(1993));
-        dude.ChangeDOB(1993);
-        Assert.assertEquals("should be 24",(dude.Year-dude.DOB), dude.CheckAge());
+        Assert.assertEquals("should be false", false,place.isFree());
+        Assert.assertEquals("should work", car, place.getVehicle());
+        Assert.assertEquals( 0, place.getPrice(),0.001);
+        Assert.assertEquals("should be false", false, place.isFree());
+        place.setFree(car);
+        Assert.assertEquals("should be true", true ,place.isFree());
+        Assert.assertEquals("Should be true",size,place.getSize_place());
 
     }
 }
