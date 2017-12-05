@@ -30,7 +30,6 @@ public class MyFirstTest {
         place.setFree();
         Assert.assertEquals("should be true", true ,place.isFree());
         Assert.assertEquals("Should be true",size,place.getSize_place());
-
     }
     public void SizeTest(){
         Size size = new Size(1,2);
