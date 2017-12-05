@@ -11,60 +11,31 @@ import java.util.ArrayList;
 
 import javax.json.Json;
 import javax.json.JsonObject;
-import javax.json.JsonValue;
-import javax.json.stream.JsonGenerator;
-import javax.json.stream.JsonParser;
-import javax.json.stream.JsonParser.Event;
-
+import javax.json.JsonReader;
 public class ReadJson {
+
     public static void main(String[] args){
 
         String file = "Parking.json";
+        Place[] all = new Place[]{};
         try {
             InputStream fileInputStream = new FileInputStream(file);
-            JsonParser jsonParser = Json.createParser(fileInputStream);
-            System.out.println("It worked!");
-
-            String keyName;
-            String string;
-            long number;
-            String[] value = new String[]{null,null};
-
-            while (jsonParser.hasNext()){
-                Event event = jsonParser.next();
-                switch (event){
-                    case KEY_NAME:
-                        keyName = jsonParser.getString();
-                        value[0] = keyName;
-                        value[1] = null;
-                        break;
-                    case VALUE_NUMBER:
-                        number = jsonParser.getLong();
-                        value[1] = Long.toString(number);
-                        break;
-                    case VALUE_STRING:
-                        string = jsonParser.getString();
-                        value[1] = string;
-                        break;
-                    case VALUE_FALSE:
-                        value[1] = "false";
-                        break;
-                    case VALUE_TRUE:
-                        value[1] = "true";
-                        break;
-                    default:
-                        value[0]=null;
-                        value[1]=null;
-                        //do nothing
-                }
-                if (value[0] != null && value[1] != null){
-                    System.out.println(value[0]+": "+value[1]);
-                }
+            JsonReader jsonReader = Json.createReader(fileInputStream);
+            JsonObject object = jsonReader.readObject();
+            String[] data = new String[]{"length","width","price","free"};
+            for (String info:data){
+                String result = object.get(info).toString();
+                System.out.println(info+": "+result);
             }
+            jsonReader.close();
         }
         catch (FileNotFoundException e){
             System.out.println(e.toString());
             System.out.println("File not found");
         }
+    }
+    public Place getPlace(Integer width, Integer length, String price, String free){
+        Size size = new Size(width,length);
+        return new Place(size);
     }
 }
