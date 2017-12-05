@@ -3,6 +3,8 @@ package com.company.json;
 import com.company.Place;
 import com.company.Size;
 
+import javax.json.Json;
+import javax.json.stream.JsonGenerator;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
