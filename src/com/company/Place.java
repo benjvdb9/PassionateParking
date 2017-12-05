@@ -28,7 +28,7 @@ public class Place {
         this.vehicle = vehicle;
     }
 
-    public void setFree(Vehicle vehicule) {
+    public void setFree() {
         this.free = true;
         this.vehicle = null;
     }
