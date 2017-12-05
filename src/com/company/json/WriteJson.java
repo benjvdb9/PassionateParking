@@ -33,8 +33,8 @@ public class WriteJson {
         int index = 1;
         for (Place this_place:places){
             generator.writeStartObject(); // start object
-            generator.write("length",this_place.getSize_place().getLength())
-                    .write("width",this_place.getSize_place().getWidth())
+            generator.write("length",this_place.getSizePlace().getLength())
+                    .write("width",this_place.getSizePlace().getWidth())
                     .write("price",this_place.getPrice())
                     .write("free", this_place.isFree())
                     .write("index",index);

@@ -32,8 +32,8 @@ public class ReadJson {
                 for (Place place:places){
                     System.out.println("index: "+place.toString());
                     System.out.println("Free: "+place.isFree());
-                    System.out.println("Size: "+place.getSize_place().getLength()+" "+place
-                            .getSize_place().getWidth());
+                    System.out.println("Size: "+place.getSizePlace().getLength()+" "+place
+                            .getSizePlace().getWidth());
                     System.out.println("Price: "+place.getPrice());
                     System.out.println("Vehicle: "+place.getVehicle());
                     System.out.println("____________________________");
