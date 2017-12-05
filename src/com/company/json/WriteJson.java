@@ -10,11 +10,19 @@ import java.io.OutputStream;
 
 public class WriteJson {
     public static void main(String[] args) throws IOException {
-        OutputStream fileoutputstream = new FileOutputStream("Parking.json");
-
+        String file = "Parking.json";
+        OutputStream fileOutputStream = new FileOutputStream(file);
+        JsonGenerator generator = Json.createGenerator(fileOutputStream);
 
         Size newSize = new Size(200,300);
         Place newPlace = new Place(newSize);
-        System.out.println(newPlace.toString());
+        generator.writeStartObject();
+        generator.write("length",newPlace.getSize_place().getLength())
+                .write("width",newPlace.getSize_place().getWidth())
+                .write("price",newPlace.getPrice())
+                .write("free", newPlace.isFree());
+        generator.writeEnd();
+        System.out.println(generator);
+        generator.close();
     }
 }
