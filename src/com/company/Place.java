@@ -1,5 +1,6 @@
 package com.company;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -72,8 +73,32 @@ public class Place {
         this.arrival = date;
     }
 
+    public void setArrival(Date date) {
+        Date compare_date = new Date(0);
+        if (date.toString().equals(compare_date.toString())) {
+            this.arrival = new Date(0);
+        } else {
+            this.arrival = date;
+        }
+    }
+
     public void setDeparture() {
         Date date = new Date();
         this.departure = date;
+    }
+
+    public void setDeparture(Date date){
+        Date compare_date = new Date(0);
+        if (date.toString().equals(compare_date.toString())){
+            this.departure = new Date(0);
+        } else {
+            this.departure = date;
+        }
+    }
+    @Override
+    public String toString(){
+        String construct = "place id: " + this.place_id+ ", free: " + this.free + ", vehicle: " +
+                this.vehicle.toString();
+        return construct;
     }
 }
