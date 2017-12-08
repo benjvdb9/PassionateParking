@@ -1,6 +1,6 @@
-package com.company.json;
+package main.company.json;
 
-import com.company.*;
+import main.company.*;
 import javafx.util.converter.DateTimeStringConverter;
 
 import java.io.*;

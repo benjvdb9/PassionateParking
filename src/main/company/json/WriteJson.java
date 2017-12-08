@@ -1,7 +1,7 @@
-package com.company.json;
+package main.company.json;
 
-import com.company.Place;
-import com.company.Size;
+import main.company.Place;
+import main.company.Size;
 
 import javax.json.*;
 import javax.json.stream.JsonGenerator;
