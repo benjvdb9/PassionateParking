@@ -1,7 +1,11 @@
-.DS_Store
-.idea/workspace.xml
-# Compiled class file
-*.class
+# Operating System Files
+*.DS_Store
+Thumbs.db
+*.sw?
+.#*
+*#
+*~
+*.sublime-*
 
 # Log file
 *.log
@@ -24,3 +28,24 @@
 hs_err_pid*
 /.idea/workspace.xml
 /.idea/libraries/javax_annotation_javax_annotation_api_1_2_b04.xml
+
+# Build Artifacts
+.gradle/
+build/
+target/*
+bin/
+dependency-reduced-pom.xml
+
+# Eclipse
+.settings
+.project
+.classpath
+
+# Idea
+*.iml
+*.ipr
+*.iws
+*.idea
+/target/
+/Test Results - testLeague.xml
+Test Results - testLeague.xml

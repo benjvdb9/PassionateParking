@@ -1,4 +1,4 @@
-package com.company;
+package main.company;
 
 public class Motor extends Vehicle {
     private String motor_type;

@@ -1,4 +1,4 @@
-package com.company;
+package main.company;
 
 import java.util.List;
 import java.util.Collections;

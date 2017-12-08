@@ -1,4 +1,4 @@
-package com.company;
+package main.company;
 
 import java.time.LocalDateTime;
 import java.util.concurrent.atomic.AtomicInteger;
