@@ -63,8 +63,14 @@ public class Place {
 
     //Return Price.
     public double getPrice(){
+        long diff = this.getTime();
         double price = 0;
         return price;
+    }
+
+    public long getTime() {
+        long diff = this.departure.getTime() - this.arrival.getTime();
+        return diff;
     }
 
     //Setter departure and arrival date.
